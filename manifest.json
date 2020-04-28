@@ -3,7 +3,7 @@
   "short_name": "PP",
   "theme_color": "#2994e9",
   "background_color": "#ffffff",
-  "display": "minimal-ui",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/index.html",
   "icons": [

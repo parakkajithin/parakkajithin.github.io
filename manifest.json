@@ -1,11 +1,11 @@
 {
-  "name": "News App",
-  "short_name": "news",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "name": "The PaperPlane",
+  "short_name": "PP",
+  "theme_color": "#2994e9",
+  "background_color": "#ffffff",
   "display": "minimal-ui",
   "Scope": "/",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

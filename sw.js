@@ -2,7 +2,13 @@ var cacheName='myCahs';
 var filesTocash=[
     '/',
     '/app.js',
-    '/styles.css'
+    'index.html',
+    '/js/jquery-3.5.0.min.js',
+    '/js/bootstrap.min.js',
+    '/js/swiped-events.js',
+    '/css/bootstrap.min.css',
+    '/css/styles.css',
+    '/font-awesome-4.7.0/css/font-awesome.min.css'    
 ];
 
 self.addEventListener('install', function(e){
@@ -39,3 +45,4 @@ async function networkFirst(req){
         return await cache.match(req);
     }
 }
+let deferredPrompt;
